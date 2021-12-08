@@ -1,0 +1,31 @@
+.navigation-container{
+  min-height:10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav-items{
+    display: flex;
+    align-items: center;
+    li{
+      margin: 0 1rem;
+    }
+    .primary-btn{
+      margin-left: 3rem;
+      background-color: rgba(57,95,246,0.6);
+      padding: .6rem .3rem;
+      border-radius: 70px;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+      &:hover{
+        background-color: rgba(57,95,246,0.6);
+      }
+    }
+  }
+
+  .logo{
+    img{
+      width: 60px;
+    }
+  }
+
+}
