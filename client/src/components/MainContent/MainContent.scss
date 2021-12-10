@@ -5,13 +5,6 @@
   width: 80%;
   height: 100%;
   transform: translateX(-50%);
-
-  position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 100%;
     .content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -27,6 +20,16 @@
             .btns-con{
                 margin-top: 3rem;
             }
+        }
+
+        .right{
+
+          img{
+            position: absolute;
+            right: 3%;
+            bottom: -17%;
+            width: 45%;
+          }
         }
     }
 }

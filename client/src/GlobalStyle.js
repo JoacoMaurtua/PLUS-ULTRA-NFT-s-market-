@@ -28,13 +28,24 @@ const GlobalStyle = createGlobalStyle`
 
   .Before{
     position: relative;
-    padding: 3rem;
+    padding: .5rem 3rem;
     &::before{
       content: '';
       position: absolute;
       left: 0;
       top: 50%;
+      width: 35px;
+      height: 2px;
+      background-color: #12C1D4;
     }
+  }
+
+  .GradientText{
+        background: linear-gradient(120deg, #19CFC4, #27EEA1);
+        background-clip: text;
+        display: inline-block;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
   }
 
 `;
