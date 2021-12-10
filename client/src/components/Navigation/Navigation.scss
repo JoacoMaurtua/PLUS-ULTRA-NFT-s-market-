@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1.5rem;
   .nav-items{
     display: flex;
     align-items: center;
@@ -12,7 +13,7 @@
     .primary-btn{
       margin-left: 3rem;
       background-color: rgba(57,95,246,0.6);
-      padding: .6rem .3rem;
+      padding: .6rem .8rem;
       border-radius: 70px;
       cursor: pointer;
       transition: all .4s ease-in-out;
@@ -24,7 +25,7 @@
 
   .logo{
     img{
-      width: 60px;
+      width: 200px;
     }
   }
 
