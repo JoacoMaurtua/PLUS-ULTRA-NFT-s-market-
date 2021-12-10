@@ -12,13 +12,13 @@
     }
     .primary-btn{
       margin-left: 3rem;
-      background-color: rgba(57,95,246,0.6);
-      padding: .6rem .8rem;
+      background-color: #19CFC4;
+      padding: .6rem 1rem;
       border-radius: 70px;
       cursor: pointer;
       transition: all .4s ease-in-out;
       &:hover{
-        background-color: rgba(57,95,246,0.6);
+        background-color: #27EEA1;
       }
     }
   }

@@ -22,6 +22,21 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  p{
+    line-height: 2rem;
+  }
+
+  .Before{
+    position: relative;
+    padding: 3rem;
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+    }
+  }
+
 `;
 
 export default GlobalStyle;
